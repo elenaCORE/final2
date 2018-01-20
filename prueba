@@ -1,0 +1,11 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+# Importamos las bibliotecas
+import time
+import sys
+import os
+import subprocess
+
+cmd =  "bash -c \"echo 'listen_addresses='\\\"'10.1.4.31'\\\" '  >> ./holi "
+subprocess.call(cmd, shell=True)
